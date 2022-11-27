@@ -5,7 +5,7 @@
 #include <math.h>
 #include <stdlib.h>
 
-struct monitor
+struct dr
 {
 	char name[20];
 	char surname[20];
@@ -20,7 +20,7 @@ int main()
 
 	system("chcp 1251");
 	setlocale(LC_ALL, "Rus");
-	monitor x;
+	dr x;
 	int n = 1;
 	printf("Ввести имя - 1\nВвести фамилию - 2\nВвести категорию - 3\nВвести дату - 4\nВывод данных - 5\n");
 	while (n != 0)
